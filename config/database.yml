@@ -50,6 +50,6 @@ test:
 production:
   <<: *default
   database: myshop_production
-  username: root
+  username: n-satoshi061
   password: <%= ENV['DATABASE_PASSWORD'] %>
   socket: /var/lib/mysql/mysql.sock
